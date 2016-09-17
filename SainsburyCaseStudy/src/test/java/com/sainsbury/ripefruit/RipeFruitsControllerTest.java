@@ -32,7 +32,6 @@ public class RipeFruitsControllerTest {
 
     @Test
     public void getJsonResponse1() throws Exception {
-        //FileOutputStream fileOutputStream=new FileOutputStream("../Parent1.html");
         RipeFruitsController ripeFruitsController =new RipeFruitsController("sample url");
         Document document=Jsoup.parse(new File("src/test/resources/Parent.html"),"UTF-8");
 
